@@ -1,1 +1,171 @@
-styles
+html {
+    scroll-behavior: smooth;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+    body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .header {
+      background-color: #ffffcc;
+      padding: 30px 10% 5px;
+     /* display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap; */
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 25px;
+    list-style: none;
+  }
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(88, 86, 86);
+    font-weight: bold;
+  }
+
+  .container {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+  }
+  .name {
+      text-decoration: underline;
+      font-size: 40px;
+      margin: auto;
+  }
+
+  .avatar {
+      display: block;
+      width: 250px;
+      height: 250px;
+      border: solid gray 1px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+  /*  justify-content:space-around;*/
+    flex-wrap: wrap;
+    background-color: #E8E8E8;
+    padding: 30px 10% 5px;
+    flex: 1;
+    }
+
+  .contact-item {
+      padding: 0 20px;
+      line-height: 30px;
+  }
+
+  .contact-item a {
+    color: black;
+  }
+
+  .contact-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+
+  .contacts-section {
+      flex: 50%;
+      margin: 10px 0px;
+      padding: 0;
+  }
+
+  .summary-section {
+    flex: 50%;
+    margin: 10px 0px;
+  }
+
+  .summary_text{
+    padding: 0 20px;
+    line-height: 30px;
+  }
+
+  .skills-section {
+      flex: 50%;
+      margin: 10px 0px;
+  }
+
+  .skills-list, .education-list, .languages-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+
+  .skills-item {
+    padding: 0 20px;
+    line-height: 30px;
+  }
+
+  .code-section {
+      flex: 50%;
+      margin: 10px 0px;
+  }
+
+  code {
+    /*  display: flex;
+  align-items: center;
+  justify-content: center; */
+    display: block;
+      background-color: #818C91;
+      width: 50%;
+      min-height: 40px;
+      color: #ffffcc;
+      border: #363945 solid 2px;
+      margin: 20px 0;
+      padding: 5px;
+  }
+
+  .education-section {
+    flex: 50%;
+    margin: 10px 0px;
+  }
+
+  .languages-section {
+      flex: 50%;
+  }
+  .education-item {
+    padding: 0 20px;
+    line-height: 30px;
+  }
+
+  .languages-item{
+    padding: 0 20px;
+    line-height: 30px;
+  }
+
+  .footer {
+      display: flex;
+      justify-content: space-between;
+      background-color: slategray;
+      padding: 10px 10% 0;
+  }
+
+  .git-link {
+    margin: 20px;
+    color: snow;
+
+  }
+
+  .rsschool-link {
+    margin: 20px;
+  }
