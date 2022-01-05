@@ -7,88 +7,96 @@
     <title>cv</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@1&family=Playfair+Display:ital@1&family=Vollkorn:ital@1&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <header class="header">
+    <div class="content">
 
-        <div class="container">
-            <h1 class="name">Mariia Pavlovska</h1>
-            <img class="avatar" src="assets/img/avatar.png" alt="avatar">
-        </div>
+        <header class="header">
 
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-            </ul>
-        </nav>
-
-    </header>
-
-    <main class="main">
-
-        <section class="contacts-section">
-            <h2 id="contacts">Contacts:</h2>
-                <ul class="contact-list">
-                    <li class="contact-item"><a href="mailto:vending.mp@gmail.com">E-mail: vending.mp@gmail.com</a></li>
-                    <li class="contact-item"><a href="tel: +380634928856">Phone: +380634928856</a></li>
-                    <li class="contact-item"><a href="https://github.com/Masyata">GitHub: Masyata</a></li>
-                </ul>
-        </section>    
-
-        <section class="summary-section">
-            <h2 id="summary">Summary:</h2>
-            <p class="summary_text">Although my working experience is not connected with it-sphere, it has helped me to improve such soft skills as: good communicational skills, responsibility, teamwork, creativity and others. Now I am improving my hard skills, because my aim is to became a frontend developer.</p>
-        </section>
-
-        <section class="skills-section">
-            <h2 id="skills">Skills:</h2>
-            <ul class="skills-list">
-                <li class="skills-item">HTML5</li>
-                <li class="skills-item">CSS3</li> 
-                <li class="skills-item">JavaScript Basics</li> 
-                <li class="skills-item">Git, GitHub</li> 
-                <li class="skills-item">VS Code</li>
-            </ul>
-        </section>
-
-        <section class="code-section">
-            <h2 id="code">Code</h2>
-            <div class="code-container">
-                <code>
-                    function multiply(a, b) { <br>
-                        return a * b; <br>
-                    }
-                </code> 
+            <div class="header-container">
+                <h1 class="name">Mariia Pavlovska</h1>
+                <img class="avatar" src="assets/img/avatar.png" alt="avatar" width="600" height="600">
             </div>
-        </section>
 
-        <section class="education-section">
-            <h2 id="education">Education:</h2>
-            <ul class="education-list">
-                <li class="education-item">Kyiv pedagogical college</li>
-                <li class="education-item">IAPM</li>
-            </ul>
-        </section>
-        
-        <section class="languages-section"><h2 id="languages">Languages:</h2>
-            <ul class="languages-list">
-                <li class="languages-item">Ukrainian – native speaker</li>
-                <li class="languages-item">Russian – native speaker</li>
-                <li class="languages-item">English – intermediate+</li>
-            </ul></section>   
-    </main>
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
 
-    <footer class="footer">
-        <a class="git-link" href="https://github.com/Masyata">Masyata</a>
-        <a class="rsschool-link" href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" height=70px width=100px alt="rs_school_logo"></a>   
-    </footer>
+        </header>
+
+        <main class="main">
+
+            <section class="contacts-section">
+                <h2 id="contacts">Contacts:</h2>
+                    <ul class="contact-list">
+                        <li class="contact-item"><a href="mailto:vending.mp@gmail.com">E-mail: vending.mp@gmail.com</a></li>
+                        <li class="contact-item"><a href="tel:+380634928856">Phone: +380634928856</a></li>
+                        <li class="contact-item"><a href="https://github.com/Masyata">GitHub: Masyata</a></li>
+                    </ul>
+            </section>    
+
+            <section class="summary-section">
+                <h2 id="summary">Summary:</h2>
+                <p class="summary-text">Although my working experience is not connected with it-sphere, it has helped me to improve such soft skills as: good communicational skills, responsibility, teamwork, creativity and others. Now I am improving my hard skills, because my aim is to became a frontend developer.</p>
+            </section>
+
+            <section class="skills-section">
+                <h2 id="skills">Skills:</h2>
+                <ul class="skills-list">
+                    <li class="skills-item">HTML5</li>
+                    <li class="skills-item">CSS3</li> 
+                    <li class="skills-item">JavaScript Basics</li> 
+                    <li class="skills-item">Git, GitHub</li> 
+                    <li class="skills-item">VS Code</li>
+                </ul>
+            </section>
+
+            <section class="code-section">
+                <h2 id="code">Code:</h2>
+                <div class="code-container">
+                    <code>
+                        function multiply(a, b) { <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;return a * b; <br>  
+                        }
+                    </code> 
+                </div>
+            </section>
+
+            <section class="education-section">
+                <h2 id="education">Education:</h2>
+                <ul class="education-list">
+                    <li class="education-item">Kyiv pedagogical college</li>
+                    <li class="education-item">IAPM</li>
+                </ul>
+            </section>
+            
+            <section class="languages-section"><h2 id="languages">Languages:</h2>
+                <ul class="languages-list">
+                    <li class="languages-item">Ukrainian – native speaker</li>
+                    <li class="languages-item">Russian – native speaker</li>
+                    <li class="languages-item">English – intermediate+</li>
+                </ul></section>   
+        </main>
+
+        <footer class="footer">
+            <a class="git-link" href="https://github.com/Masyata">Masyata</a>
+            <div class="data">&copy; 2022</div> 
+            <a class="rsschool-link" href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" height=70 width=100 alt="rs_school_logo"></a>   
+        </footer>
+
+    </div>
 
 </body>
 </html>
