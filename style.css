@@ -1,0 +1,178 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.content{
+  min-height: 100vh;
+  margin: 0 20%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 0 15px rgb(51, 51, 51);
+}
+
+h2 {
+  color: #363945;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display';
+  font-style: italic;
+}
+
+.header {
+  background-color: #ffffcc;
+  padding: 30px 15% 5px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 15px;
+  list-style: none;
+  border-bottom: 3px solid darkgrey;
+  margin: 0 0 -5px 0;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  color: slategray;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #363945;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.name {
+  font-size: 40px;
+  margin: auto;
+  color: #363945;
+  font-family: 'Playfair Display'; 
+}
+
+.avatar {
+  display: block;
+  width: 250px;
+  height: 250px;
+  border: solid gray 1px;
+  box-shadow: 2px 2px 2px darkgray;
+}
+
+.avatar:hover{
+  transform: rotate(10deg);
+  transition: 0.3s;
+  box-shadow: 8px 8px 8px darkgray;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #E8E8E8;
+  padding: 30px 15% 5px;
+  flex: 1;
+}
+
+.contact-item, .skills-item, .education-item, .summary-text, .languages-item {
+  padding: 0 20px;
+  line-height: 30px;
+}
+
+.contact-item a {
+  color: black;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contacts-section, .skills-section, .code-section, .summary-section, .education-section, .languages-section {
+  flex: 50%;
+  margin: 10px 0px;   
+}
+
+.skills-item, .education-item, .languages-item {
+  position: relative;
+}
+
+.skills-item::before, .education-item::before, .languages-item::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0px;
+  width: 10px;
+  height: 10px; 
+  border: 1px solid #363945;
+  background-color: #ffffcc;
+}
+
+.contacts-section, .skills-section, .code-section, .summary-section {
+  border-bottom: 3px solid darkgrey;
+}
+
+.contacts-section, .skills-section, .education-section {
+  padding-left: 10px;
+}
+
+.skills-list, .education-list, .languages-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+code {
+  display: block;
+  background-color: slategray;
+  width: 50%;
+  min-height: 40px;
+  color: #ffffcc;
+  border: #363945 solid 2px;
+  margin: 20px 0;
+  padding: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: slategray;
+  padding: 10px 15% 0;
+}
+
+.git-link {
+  margin: 50px 20px 0;
+  color: #ffffcc;
+  text-decoration: none;
+}
+
+.data {
+  margin: 50px 20px 0 ;
+  color: black;
+}
+
+.rsschool-link {
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+  .contacts-section, .summary-section, .skills-section, .code-section, .education-section, .languages-section {
+    width: 100%;
+  }
+}
